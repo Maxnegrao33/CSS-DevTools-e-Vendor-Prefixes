@@ -1,0 +1,22 @@
+#DevTools {
+    F12 abre o DevTools
+
+}
+
+##Vendor Prefixes
+/*Premite que alguns browsers adicione "features" (novidades)
+a fim de inserir alguma novidade que vemos no CSS*/
+/*Permitindo assim que o CSS se adapte aos browsers*/
+
+#Exemplo
+p {
+    -webkit-background-clip: text;      /*Chrome, IoS, Safari, Android */
+    -moz-background-clip: text;         /*Mozilla, Firefox*/
+    -ms-background-clip: text;          /*Internet Explorer*/
+    -o-background-clip: text;           /*Opera*/
+
+}
+
+Sites para consultar a documentação
+https://ireade.github.io/which-vendor-prefix
+https://caniuse.com
